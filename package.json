@@ -1,0 +1,41 @@
+{
+  "name": "choas-react-storybook",
+  "version": "1.0.0",
+  "description": "choas-react-storybook",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/faliye/choas-react-storybook.git"
+  },
+  "keywords": [
+    "choas-react-storybook"
+  ],
+  "author": {
+    "name": "faliye"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faliye/choas-react-storybook/issues"
+  },
+  "homepage": "https://github.com/faliye/choas-react-storybook#readme",
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.4",
+    "@storybook/addon-interactions": "^7.6.4",
+    "@storybook/addon-links": "^7.6.4",
+    "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/blocks": "^7.6.4",
+    "@storybook/react": "^7.6.4",
+    "@storybook/react-webpack5": "^7.6.4",
+    "@storybook/test": "^7.6.4",
+    "chromatic": "^10.1.0",
+    "storybook": "^7.6.4",
+    "ts-loader": "^9.5.1"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "choas-react@1.0.0"
+}
