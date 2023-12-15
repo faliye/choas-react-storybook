@@ -26,15 +26,26 @@ const meta = {
     },
     type: {
       control: 'select',
-      options: ['primary', 'danger', 'ghost', 'link'],
+      options: ['primary', 'danger', 'ghost', 'link', undefined],
       table:{
         defaultValue: {
-          summary: 'primary',
+          summary: '',
         },
         type: { summary: 'タイプ(type)' },
         subcategory: 'basic'
       }
-    }
+    },
+    size: {
+      control: 'select',
+      options: ['small', 'large', undefined],
+      table:{
+        defaultValue: {
+          summary: 'normal',
+        },
+        type: { summary: 'サイズ(size)' },
+        subcategory: 'basic'
+      }
+    },
   },
   args: {
     btnTxt: 'button',
@@ -46,10 +57,10 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
-export const Type: Story = {
+export const Basic: Story = {
   args: {
     btnTxt: 'button1',
-    type: 'primary',
+    type: '',
   },
 };
 
